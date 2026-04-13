@@ -18,7 +18,7 @@ bash install.sh
 Or use the CLI:
 
 ```bash
-npx socle init
+npx socle-cli init
 ```
 
 Then open your AI tool and say: **"Help me configure Le Socle for this project."**
