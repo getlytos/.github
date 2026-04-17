@@ -2,32 +2,57 @@
 
 [![npm](https://img.shields.io/npm/v/lytos-cli)](https://www.npmjs.com/package/lytos-cli)
 
-🇬🇧 **Your AI forgets everything. Lytos fixes that.** · 🇫🇷 **[Lire en français ↓](#fr)**
-
-Persistent context, rules, and memory for AI agents — in Markdown files you own.
+**Your AI forgets everything. Lytos fixes that.** · **[Lire en français 🇫🇷](https://github.com/getlytos/.github/blob/main/profile/README-fr.md)**
 
 ---
 
-**Without Lytos**, at the start of every session:
+### The moment it clicks
+
+You're coding with an AI agent. You explain your stack, your conventions, your constraints. The AI produces great code. Next session — it forgot everything. You explain again. And again. And again.
+
+Then you try giving it a persona: *"You are a Senior Developer with 15 years of experience."* The tone changes. The quality doesn't. Because a costume doesn't create knowledge — context does.
+
+That's the moment you realize: **the problem isn't the AI. It's what the AI knows when it starts working.**
+
+> *"An agent dressed as a senior dev doesn't know your code. It knows the word 'senior'."*
+
+### What if the AI remembered?
+
+What if every session started with your project's constitution, your team's conventions, your past decisions, your current sprint — loaded automatically, in files you control?
+
+That's Lytos. Not another AI tool. A **method** that structures what your AI needs to do its best work.
+
+```bash
+npm install -g lytos-cli && lyt init
+```
+
+One command. Your AI understands your project from the first session.
+
+---
+
+**Without Lytos:**
 ```
 You: "We use Tailwind, not CSS modules. And we write tests before committing."
 AI:  "Got it!" (until the next session, when it forgets again)
 ```
 
-**With Lytos**, the AI reads `.lytos/` at startup and already knows: your stack, your conventions, your sprint, your past decisions. No re-explaining. A real working session from line one.
+**With Lytos:**
+```
+The AI reads .lytos/ at startup → stack, conventions, sprint, past decisions.
+No re-explaining. A real working session from line one.
+```
 
 > *"Agile structured human collaboration. Lytos structures collaboration with AI."*
 
 ---
 
-**→ Try it now**
-```bash
-npm install -g lytos-cli && lyt init
-```
+### Three paths
 
-**→ Understand the method** — [lytos.org](https://lytos.org)
+**→ I want to try it** — `npm install -g lytos-cli && lyt init`
 
-**→ For teams & trainers** — [Trainer Kit](https://lytos.org/en/philosophy/trainers/)
+**→ I want to understand** — [lytos.org](https://lytos.org)
+
+**→ I want it for my team** — [Trainer Kit](https://lytos.org/en/philosophy/trainers/)
 
 ---
 
@@ -39,53 +64,6 @@ npm install -g lytos-cli && lyt init
 | **[lytos-cli](https://github.com/getlytos/lytos-cli)** | The CLI — `lyt init` · `lyt board` · `lyt lint` · `lyt doctor` · `lyt start` · `lyt close` |
 | **[lytos-website](https://github.com/getlytos/lytos-website)** | Documentation — [lytos.org](https://lytos.org) |
 
+---
+
 > *"Choose your AI. Don't belong to it."*
-
----
-
-<a id="fr"></a>
-
-# 🇫🇷 Lytos
-
-**Ton IA oublie tout. Lytos règle ça.**
-
-Du contexte persistant, des règles et une mémoire pour les agents IA — dans des fichiers Markdown que tu possèdes.
-
----
-
-**Sans Lytos**, à chaque début de session :
-```
-Toi : "On utilise Tailwind, pas CSS modules. Et on écrit les tests avant de commiter."
-IA  : "Compris !" (jusqu'à la prochaine session, où elle oublie tout)
-```
-
-**Avec Lytos**, l'IA lit `.lytos/` au démarrage et sait déjà : ta stack, tes conventions, ton sprint, tes décisions passées. Fini de réexpliquer. Une vraie session de travail dès la première ligne.
-
-> *"L'agile a structuré la collaboration humaine. Lytos structure la collaboration avec l'IA."*
-
----
-
-**→ Essayer maintenant**
-```bash
-npm install -g lytos-cli && lyt init
-```
-
-**→ Comprendre la méthode** — [lytos.org/fr](https://lytos.org/fr/)
-
-**→ Pour les équipes et formateurs** — [Kit formateur](https://lytos.org/fr/philosophy/trainers/)
-
----
-
-### Dépôts
-
-| Dépôt | C'est quoi |
-|-------|-----------|
-| **[lytos-method](https://github.com/getlytos/lytos-method)** | La méthode — manifest, skills, rules, memory. Compatible tout outil IA |
-| **[lytos-cli](https://github.com/getlytos/lytos-cli)** | Le CLI — `lyt init` · `lyt board` · `lyt lint` · `lyt doctor` · `lyt start` · `lyt close` |
-| **[lytos-website](https://github.com/getlytos/lytos-website)** | Documentation — [lytos.org](https://lytos.org) |
-
-> *"Choisis ton IA. Ne lui appartiens pas."*
-
----
-
-*Made in France 🇫🇷 by [Frederic Galliné](https://ubeez.com)*
