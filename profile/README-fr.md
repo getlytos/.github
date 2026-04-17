@@ -62,6 +62,8 @@ Tout dans Lytos est du **Markdown dans Git**. Le manifest, les rules, la memory 
 
 **→ Essayer** — `npm install -g lytos-cli && lyt init`
 
+**→ Apprendre en faisant** — [lytos-learn](https://github.com/getlytos/lytos-learn/blob/main/docs/README-fr.md) — un tutoriel guidé en 7 étapes
+
 **→ Comprendre la méthode** — [lytos.org/fr](https://lytos.org/fr/)
 
 **→ Pour les équipes et formateurs** — [Kit formateur](https://lytos.org/fr/philosophy/trainers/)
@@ -74,4 +76,5 @@ Tout dans Lytos est du **Markdown dans Git**. Le manifest, les rules, la memory 
 |-------|-----------|
 | **[lytos-method](https://github.com/getlytos/lytos-method)** | La méthode — manifest, skills, rules, memory. Compatible tout outil IA |
 | **[lytos-cli](https://github.com/getlytos/lytos-cli)** | Le CLI — `lyt init` · `lyt board` · `lyt lint` · `lyt doctor` · `lyt start` · `lyt close` |
+| **[lytos-learn](https://github.com/getlytos/lytos-learn)** | Tutoriel pratique — apprendre Lytos en construisant une todo API |
 | **[lytos-website](https://github.com/getlytos/lytos-website)** | Documentation — [lytos.org](https://lytos.org) |

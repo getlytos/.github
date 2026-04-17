@@ -62,6 +62,8 @@ It runs on Claude Code today. It will run on whatever's best tomorrow. The conte
 
 **→ Try it** — `npm install -g lytos-cli && lyt init`
 
+**→ Learn by doing** — [lytos-learn](https://github.com/getlytos/lytos-learn) — a guided tutorial in 7 steps
+
 **→ Understand the method** — [lytos.org](https://lytos.org)
 
 **→ For teams & trainers** — [Trainer Kit](https://lytos.org/en/philosophy/trainers/)
@@ -74,4 +76,5 @@ It runs on Claude Code today. It will run on whatever's best tomorrow. The conte
 |------|-----------|
 | **[lytos-method](https://github.com/getlytos/lytos-method)** | The method — manifest, skills, rules, memory. Works with any AI |
 | **[lytos-cli](https://github.com/getlytos/lytos-cli)** | The CLI — `lyt init` · `lyt board` · `lyt lint` · `lyt doctor` · `lyt start` · `lyt close` |
+| **[lytos-learn](https://github.com/getlytos/lytos-learn)** | Hands-on tutorial — learn Lytos by building a todo API |
 | **[lytos-website](https://github.com/getlytos/lytos-website)** | Documentation — [lytos.org](https://lytos.org) |
