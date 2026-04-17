@@ -8,31 +8,31 @@
 
 ### The moment it clicks
 
-You're coding with an AI agent. You explain your stack, your conventions, your constraints. The AI produces great code. Next session — it forgot everything. You explain again. And again. And again.
+A developer is coding with an AI agent. They explain the stack, the conventions, the constraints. The AI produces great code. Next session — it forgot everything. They explain again. And again.
 
-Then you try giving it a persona: *"You are a Senior Developer with 15 years of experience."* The tone changes. The quality doesn't. Because a costume doesn't create knowledge — context does.
+Then they try a persona: *"You are a Senior Developer with 15 years of experience."* The tone changes. The quality doesn't. A costume doesn't create knowledge. Context does.
 
-That's the moment you realize: **the problem isn't the AI. It's what the AI knows when it starts working.**
+The problem isn't the AI. It's what the AI knows when it starts working.
 
 > *"An agent dressed as a senior dev doesn't know your code. It knows the word 'senior'."*
 
 ### What if the AI remembered?
 
-What if every session started with your project's constitution, your team's conventions, your past decisions, your current sprint — loaded automatically, in files you control?
+Every session starts with the project's constitution, the team's conventions, past decisions, the current sprint — loaded automatically, from files that live in the Git repo.
 
-That's Lytos. Not another AI tool. A **method** that structures what your AI needs to do its best work.
+That's Lytos. Not another AI tool. A **method** that structures what any AI agent needs to do its best work.
 
 ```bash
 npm install -g lytos-cli && lyt init
 ```
 
-One command. Your AI understands your project from the first session.
+One command. The AI understands the project from the first session.
 
 ---
 
 **Without Lytos:**
 ```
-You: "We use Tailwind, not CSS modules. And we write tests before committing."
+Dev: "We use Tailwind, not CSS modules. And we write tests before committing."
 AI:  "Got it!" (until the next session, when it forgets again)
 ```
 
@@ -46,13 +46,13 @@ No re-explaining. A real working session from line one.
 
 ---
 
-### You don't belong to a model
+### A project shouldn't depend on a model
 
-Claude today. GPT tomorrow. Gemini next month. Models change every 3-6 months — APIs evolve, prices shift, features disappear. If your project context lives in a vendor's chat history, every change means starting over.
+Claude today. GPT tomorrow. Gemini next month. Models change every 3-6 months — APIs evolve, prices shift, features disappear. When project context lives in a vendor's chat history, every change means starting over.
 
-Everything in Lytos is **Markdown in your Git repo**. Your manifest, your rules, your memory — plain text files you own, version, review, and migrate freely. The AI is an engine. Engines get swapped. Your foundation stays.
+Everything in Lytos is **Markdown in Git**. The manifest, the rules, the memory — plain text files that the team owns, versions, reviews, and migrates freely. The AI is an engine. Engines get swapped. The foundation stays.
 
-Today it runs on Claude Code. Tomorrow it runs on whatever's best. Your context doesn't move.
+It runs on Claude Code today. It will run on whatever's best tomorrow. The context doesn't move.
 
 > *"Choose your AI. Don't belong to it."*
 
@@ -60,11 +60,11 @@ Today it runs on Claude Code. Tomorrow it runs on whatever's best. Your context 
 
 ### Three paths
 
-**→ I want to try it** — `npm install -g lytos-cli && lyt init`
+**→ Try it** — `npm install -g lytos-cli && lyt init`
 
-**→ I want to understand** — [lytos.org](https://lytos.org)
+**→ Understand the method** — [lytos.org](https://lytos.org)
 
-**→ I want it for my team** — [Trainer Kit](https://lytos.org/en/philosophy/trainers/)
+**→ For teams & trainers** — [Trainer Kit](https://lytos.org/en/philosophy/trainers/)
 
 ---
 
@@ -75,7 +75,3 @@ Today it runs on Claude Code. Tomorrow it runs on whatever's best. Your context 
 | **[lytos-method](https://github.com/getlytos/lytos-method)** | The method — manifest, skills, rules, memory. Works with any AI |
 | **[lytos-cli](https://github.com/getlytos/lytos-cli)** | The CLI — `lyt init` · `lyt board` · `lyt lint` · `lyt doctor` · `lyt start` · `lyt close` |
 | **[lytos-website](https://github.com/getlytos/lytos-website)** | Documentation — [lytos.org](https://lytos.org) |
-
----
-
-> *"Choose your AI. Don't belong to it."*
