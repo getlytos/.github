@@ -46,6 +46,18 @@ Fini de réexpliquer. Une vraie session de travail dès la première ligne.
 
 ---
 
+### Tu n'appartiens pas à un modèle
+
+Claude aujourd'hui. GPT demain. Gemini le mois prochain. Les modèles changent tous les 3-6 mois — les APIs évoluent, les prix bougent, des features disparaissent. Si ton contexte projet vit dans l'historique de chat d'un vendor, chaque changement = recommencer à zéro.
+
+Tout dans Lytos est du **Markdown dans ton repo Git**. Ton manifest, tes rules, ta memory — des fichiers texte que tu possèdes, versionnes, relis et migres librement. L'IA est un moteur. Les moteurs se changent. Ta fondation reste.
+
+Aujourd'hui ça tourne sur Claude Code. Demain ça tournera sur ce qui sera le mieux. Ton contexte ne bouge pas.
+
+> *"Choisis ton IA. Ne lui appartiens pas."*
+
+---
+
 ### Trois chemins
 
 **→ Je veux essayer** — `npm install -g lytos-cli && lyt init`

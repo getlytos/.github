@@ -46,6 +46,18 @@ No re-explaining. A real working session from line one.
 
 ---
 
+### You don't belong to a model
+
+Claude today. GPT tomorrow. Gemini next month. Models change every 3-6 months — APIs evolve, prices shift, features disappear. If your project context lives in a vendor's chat history, every change means starting over.
+
+Everything in Lytos is **Markdown in your Git repo**. Your manifest, your rules, your memory — plain text files you own, version, review, and migrate freely. The AI is an engine. Engines get swapped. Your foundation stays.
+
+Today it runs on Claude Code. Tomorrow it runs on whatever's best. Your context doesn't move.
+
+> *"Choose your AI. Don't belong to it."*
+
+---
+
 ### Three paths
 
 **→ I want to try it** — `npm install -g lytos-cli && lyt init`
